@@ -1,0 +1,51 @@
+.maroon{
+  color:#fff;
+  background-color: #61122f;
+}
+
+#gameBody{
+  background-image: url('../images/04.png');
+  background-size: cover;
+   /** min-height:480px;  **/
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto; 
+    background-repeat: no-repeat;
+  
+}
+
+header{
+  min-height: 59px;
+}
+
+
+footer{
+  background-color: #61122f;;
+}
+/**  Setting the size of the layout**/
+.dBox{
+  height: 750px;
+}
+
+
+/**  Jumbotron margin off**/
+.marginOff{
+  margin-bottom: 0;
+}
+.css-typing
+{
+    /**width: 30em;  **/
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}

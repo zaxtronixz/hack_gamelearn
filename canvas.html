@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			GameLearning
+		</title>
+	</head>
+	<body>
+		<!-- <canvas id="my_canvas" ></canvas>  -->
+
+		<script type="text/javascript">
+
+			var canvas = document.getElementById('viewport'),
+			context = canvas.getContext('2d');
+
+
+
+			function make_base()
+			{
+				base_image = new Image();
+				base_image.src = 'images/04.png';
+				base_image.onload = function(){
+					context.drawImage(base_image, 100, 100);
+				}
+			}
+
+			make_base();
+		</script>
+	</body>
+</html>
